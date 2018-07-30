@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-chat",
+  "version": "1.0.0",
+  "description": "proyecto de chat con node y sockey.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chimbu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
